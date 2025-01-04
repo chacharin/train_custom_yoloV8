@@ -24,6 +24,8 @@ python -m venv venv
 
 #เผยแพร่โปรแกรม
  https://ngrok.com/
+
+ 
  ngrok http 8501
 
  
