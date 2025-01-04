@@ -1,5 +1,6 @@
 #สร้าง Environment
-</b> python -m venv venv  
+
+python -m venv venv  
 
 #เข้าถึง Environment
  .\venv\Scripts\activate  (Windows)
