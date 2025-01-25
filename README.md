@@ -1,31 +1,24 @@
+**คำแนะนำ
 #สร้าง Environment
 
-python -m venv venv  
+(Windows) python -m venv venv
+
+(MacOS)python3 -m venv venv
 
 #เข้าถึง Environment
 
+(Windows) .\venv\Scripts\activate
 
- .\venv\Scripts\activate  (Windows)
-
- 
- source venv/bin/activate  (MacOS)
+(MacOS) source venv/bin/activate
 
 #ติดตั้ง Library ตามรายการที่ระบุไว้ในไฟล์ txt
 
-
- pip install -r requirements.txt
+pip install -r requirements.txt
 
 #ใช้งานโปรแกรม
 
+streamlit run [program.py]
 
- streamlit run app.py 
+#เผยแพร่โปรแกรม https://ngrok.com/
 
- 
-
-#เผยแพร่โปรแกรม
- https://ngrok.com/
-
- 
- ngrok http 8501
-
- 
+ngrok http 8501
